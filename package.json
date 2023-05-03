@@ -4,7 +4,17 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "npm": "yarn",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
+    "pretty-quick": "^3.1.3"
   }
 }
