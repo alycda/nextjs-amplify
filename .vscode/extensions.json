@@ -1,9 +1,13 @@
 {
   "recommendations": [
+    "dbaeumer.vscode-eslint",
     "eamodio.gitlens",
     "esbenp.prettier-vscode",
     "GitHub.codespaces",
     "ms-vscode-remote.remote-containers"
   ],
-  "unwantedRecommendations": []
+  "unwantedRecommendations": [
+    "donjayamanne.githistory",
+    "felipecaputo.git-project-manager"
+  ]
 }
