@@ -1,0 +1,11 @@
+{
+  "service": "dev",
+  "dockerComposeFile": "docker-compose.yml",
+  "forwardPorts": [3000, 8080],
+  "workspaceFolder": "/workspace",
+  "portsAttributes": {
+    "8080": {
+      "label": "x11"
+    }
+  }
+}

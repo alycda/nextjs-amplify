@@ -8,7 +8,8 @@
     "npm": "yarn",
     "prepare": "husky install",
     "client:dev": "yarn workspace client dev",
-    "client": "yarn workspace client start"
+    "client": "yarn workspace client start",
+    "cypress": "yarn workspace cypress start"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
