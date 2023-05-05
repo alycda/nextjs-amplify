@@ -6,7 +6,9 @@
   ],
   "scripts": {
     "npm": "yarn",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "client:dev": "yarn workspace client dev",
+    "client": "yarn workspace client start"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
