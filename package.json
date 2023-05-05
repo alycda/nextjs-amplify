@@ -8,7 +8,9 @@
     "npm": "yarn",
     "prepare": "husky install",
     "client:dev": "yarn workspace client dev",
-    "client": "yarn workspace client start"
+    "client": "yarn workspace client start",
+    "app:dev": "yarn workspace app dev",
+    "app": "yarn workspace app start"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
